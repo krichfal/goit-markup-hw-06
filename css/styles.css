@@ -66,4 +66,20 @@ body {
     line-height: 1.87;
     color: var(--secondary-white-color);
 }
-
+.benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-text-color);
+}
+.ben-about {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.about {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--title-text-color);
+}
