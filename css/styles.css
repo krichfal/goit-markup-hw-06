@@ -34,14 +34,17 @@ body {
 .header-link:hover,
 .header-link:focus  {
     color: var(--accent-color);
-    }
+}
 .header-link {
     text-decoration: none;
+}
+.header-item {
+    color: #212121;
 }
 .contact-link {
     color: #757575;
     text-decoration: none;
-        }
+}
 .contact-link:hover,
 .contact-link:focus {
     color: var(--accent-color);
