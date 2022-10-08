@@ -49,6 +49,21 @@ body {
 .contact-link:focus {
     color: var(--accent-color);
 }
-.contact-item {
-    color: #757575;
+.order {
+    background: #2F303A;
 }
+.order-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--secondary-white-color);
+}
+.order-btn {
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--secondary-white-color);
+}
+
