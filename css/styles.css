@@ -20,6 +20,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 .logo-black {
@@ -36,13 +37,19 @@ body {
     color: var(--accent-color);
 }
 .header-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
+    color: var(--title-text-color);
 }
 .header-item {
-    color: #212121;
+    color: var(--title-text-color);
 }
 .contact-link {
-    color: #757575;
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 .contact-link:hover,
@@ -56,6 +63,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    letter-spacing: 0.06em;
     color: var(--secondary-white-color);
 }
 .order-btn {
@@ -64,22 +72,80 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.06em;
     color: var(--secondary-white-color);
 }
 .benefits {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
 .ben-about {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .about {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
     color: var(--title-text-color);
+}
+.team-sec {
+    background: #F5F4FA;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+.team-prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+.team-win {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.footer {
+    background: #2F303A;
+}
+.adress {
+    font-style: normal;
+}
+.logo-white {
+    color: var(--secondary-white-color);
+}
+.adress-nav {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-white-color);
+    text-decoration: none;
+}
+.main-nav {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
