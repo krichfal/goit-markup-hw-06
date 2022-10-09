@@ -77,6 +77,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--secondary-white-color);
+    cursor: pointer;
 }
 .benefits {
     font-weight: 700;
@@ -160,6 +161,7 @@ body {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    cursor: pointer;
 }
 .fil-btn:hover,
 .fil-btn:focus {
