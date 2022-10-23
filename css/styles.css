@@ -94,7 +94,7 @@ a {
     margin-left: auto;
     color: var(--title-text-color);
 }
-.contant-item {
+.contact-item {
     display: flex;
     margin-left: auto;
     column-gap: 50px;
