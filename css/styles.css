@@ -91,6 +91,7 @@ a {
     text-align: center;
     display: flex;
     column-gap: 50px;
+    margin-left: auto;
     color: var(--title-text-color);
 }
 .contant-item {
