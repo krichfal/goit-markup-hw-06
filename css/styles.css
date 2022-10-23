@@ -51,6 +51,9 @@ a {
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-decoration: none;
+
+    margin-right: 93px;
+    align-items: center;
 }
 .logo-black {
     color: #000000;
@@ -72,6 +75,9 @@ a {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--title-text-color);
+
+    display: block;
+    padding: 32px 0 32px;
 }
 .current {
     color: var(--accent-color);
@@ -100,6 +106,8 @@ a {
     color: var(--secondary-white-color);
 }
 .order-btn {
+    min-width: 216px;
+    height: 50px;
     font-family: 'Roboto';
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -108,14 +116,26 @@ a {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--secondary-white-color);
+
     cursor: pointer;
-    display: block;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    border-radius: 4px;
+    border: none;
 }
 .order-btn:hover,
 .order-btn:focus {
     background-color: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+}
+.features {
+    display: flex;
+    column-gap: 30px;
+}
+.features-item {
+    flex-basis: calc((100% - 90px) / 4);
 }
 .benefits {
     font-weight: 700;
@@ -197,7 +217,10 @@ a {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+
     cursor: pointer;
+    border: none;
+    display: block;
 }
 .fil-btn:hover,
 .fil-btn:focus {
