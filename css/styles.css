@@ -169,6 +169,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--title-text-color);
+    margin-bottom: 10px;
 }
 .ben-about {
     font-size: 14px;
