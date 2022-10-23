@@ -56,6 +56,8 @@ a {
     letter-spacing: 0.03em;
     text-decoration: none;
 
+    display: inline-block;
+    margin-bottom: 20px;
     margin-right: 93px;
     align-items: center;
 }
@@ -190,6 +192,10 @@ a {
 
     margin-bottom: 50px;
 }
+.team {
+    display: flex;
+    column-gap: 30px;
+}
 .team-sec {
     background-color: #F5F4FA;
 }
@@ -199,6 +205,12 @@ a {
     line-height: 1.16;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+.team-box {
+    padding: 30px 0;
 }
 .team {
     font-weight: 500;
@@ -206,26 +218,41 @@ a {
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+    text-align: center;
+
+    margin-bottom: 10px;
 }
-.team-prof {
+.team-text {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--primary-text-color);
 }
 .team-win {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
     0px 1px 1px rgba(0, 0, 0, 0.14), 
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    width: calc((100% - 60px) / 3);
 }
 .footer {
     background: #2F303A;
+    padding: 60px 0 60px;
 }
 .adress {
     font-style: normal;
 }
 .logo-white {
     color: var(--secondary-white-color);
+}
+.footer-list {
+    margin-bottom: 9px;
+}
+.footer-list:last-child {
+    margin-bottom: 0;
 }
 .adress-nav {
     font-size: 14px;
@@ -234,12 +261,20 @@ a {
     color: var(--secondary-white-color);
     text-decoration: none;
 }
+.adress-nav:hover,
+.adress-nav:focus {
+    color: var(--accent-color);
+}
 .main-nav {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+.main-nav:hover,
+.main-nav:focus {
+    color: var(--accent-color);
 }
 .fil-btn {
     font-family: 'Roboto';
