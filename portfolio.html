@@ -3,10 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
@@ -14,19 +21,21 @@
 </head>
 <body>
     <header class="header">
-        <nav>
+        <div class="container">
         <a href="./index.html" class="logo">Web<span class="logo-black">Studio</span></a>
-            <ul>
-                <li class="header-item list"><a href="./index.html" class="header-link">Студія</a></li>
-                <li class="header-item list"><a href="./portfolio.html" class="header-link current">Портфоліо</a></li>
-                <li class="header-item list"><a href="" class="header-link">Контакти</a></li>
+            <nav>
+            <ul class="header-item list">
+                <li><a href="./index.html" class="header-link current">Студія</a></li>
+                <li><a href="./portfolio.html" class="header-link">Портфоліо</a></li>
+                <li><a href="" class="header-link">Контакти</a></li>
             </ul>     
         </nav>
-        <ul>
-            <li class="contact-item list"><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
-            <li class="contact-item list"><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
+        <ul class="contact-item list">
+            <li><a href="mailto:info@devstudio.com" class="contact-link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="contact-link">+38 096 111 11 11</a></li>
         </ul>
-        </header>
+        </div>
+    </header>
     <main>
         <section>
         <h1 class="visually-hidden">Наші продукти</h1>

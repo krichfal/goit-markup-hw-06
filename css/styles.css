@@ -212,7 +212,7 @@ a {
 .team-box {
     padding: 30px 0;
 }
-.team {
+.team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -241,6 +241,18 @@ a {
 .footer {
     background: #2F303A;
     padding: 60px 0 60px;
+}
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    display: inline-block;
+
+    margin-bottom: 20px;
 }
 .adress {
     font-style: normal;
