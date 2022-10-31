@@ -243,6 +243,30 @@ a {
 .team-box {
     padding: 30px 0;
 }
+.team-soc {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.team-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-soc-icon {
+    fill: #AFB1B8;
+}
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: var(--accent-color);
+}
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+    fill: #FFFFFF;
+}
 .team-name {
     font-weight: 500;
     font-size: 16px;
