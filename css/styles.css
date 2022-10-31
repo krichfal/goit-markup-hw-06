@@ -326,6 +326,7 @@ a {
 .footer {
     background: #2F303A;
     padding: 60px 0 60px;
+    display: flex;
 }
 .logo-footer {
     font-family: 'Raleway', sans-serif;
@@ -396,6 +397,10 @@ a {
     justify-content: center;
     background: rgba(255, 255, 255, 0.1);
     fill: #FFFFFF;
+}
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: var(--accent-color);
 }
 .footer-soc-list {
     display: flex;
