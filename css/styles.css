@@ -373,6 +373,34 @@ a {
 .main-nav:focus {
     color: var(--accent-color);
 }
+.footer-info {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+}
+.footer-soc-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    margin-bottom: 20px;
+}
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+}
+.footer-soc-list {
+    display: flex;
+    column-gap: 10px;
+}
 .portfolio {
     display: flex;
     justify-content: center;
