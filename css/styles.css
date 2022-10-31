@@ -293,6 +293,36 @@ a {
 
     width: calc((100% - 60px) / 3);
 }
+.customers-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.customers-item {
+    width: 170px;
+    height: 92px;
+}
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.customers-logo {
+    fill: #AFB1B8;
+}
+.customers-link:hover,
+.customers-link:focus {
+    border-color: #2196F3;
+}
+.customers-link:hover .customers-logo,
+.customers-link:focus .customers-logo {
+    fill: #2196F3;
+}
 .footer {
     background: #2F303A;
     padding: 60px 0 60px;
