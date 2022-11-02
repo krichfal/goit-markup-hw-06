@@ -283,6 +283,7 @@ a {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--primary-text-color);
+    margin-bottom: 16px;
 }
 .team-win {
     background: #FFFFFF;
