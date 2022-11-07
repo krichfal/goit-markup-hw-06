@@ -84,9 +84,14 @@ a {
 
     display: block;
     padding: 32px 0 32px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.current {
+.header-item .current {
     color: var(--accent-color);
+    position: relative;
 }
 .header-item {
     text-align: center;
