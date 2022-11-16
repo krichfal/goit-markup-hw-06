@@ -516,11 +516,27 @@ a {
     font-size: 16px;
     line-height: 1.88;  
     background-color: var(--accent-color);
-    color: var();
+    color: var(--primary-white-color);
     display: flex;
     align-items: center;
     justify-content: center;
     letter-spacing: 0.06em;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscription-btn:hover,
+.subscription-btn:focus {
+    background-color: #188CE8;
+}
+.footer-mail-icon {
+    fill: currentColor;
+    margin-left: 10px;
+}
+.footer-input::placeholder {
+    color: #FFFFFF99;
 }
 .portfolio {
     display: flex;
