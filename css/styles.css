@@ -670,6 +670,7 @@ a {
     position: absolute;
     width: 530px;
     min-height: 580px;
+    padding: 40px;
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -712,7 +713,6 @@ a {
     fill: var(--accent-color);
 }
 .modal-title {
-    margin: 40px;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
@@ -720,6 +720,10 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+}
+.modal-form {
+    display: flex;
+    flex-direction: column;
 }
 .form-input {
     width: 100%;
@@ -736,8 +740,6 @@ a {
 }
 .input-field {
     margin-top: 4px;
-    margin-right: 40px;
-    margin-left: 40px;
     margin-bottom: 10px;
     cursor: pointer;
 }
