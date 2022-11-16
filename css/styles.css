@@ -712,6 +712,7 @@ a {
     fill: var(--accent-color);
 }
 .modal-title {
+    margin: 40px;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
@@ -734,6 +735,9 @@ a {
     border-color: var(--accent-color);
 }
 .input-field {
+    margin-top: 4px;
+    margin-right: 40px;
+    margin-left: 40px;
     margin-bottom: 10px;
     cursor: pointer;
 }
