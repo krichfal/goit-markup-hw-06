@@ -510,7 +510,7 @@ a {
     border-radius: 4px;
 }
 .subscription-btn {
-    max-width: 200px;
+    width: 200px;
     height: 50px;
     font-weight: 700;
     font-size: 16px;
@@ -695,6 +695,7 @@ a {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     padding: 0;
+    cursor: pointer;
 }
 .is-hidden {
     opacity: 0;
@@ -737,6 +738,10 @@ a {
 .form-input:hover,
 .form-input:focus {
     border-color: var(--accent-color);
+    outline: var(--accent-color);
+}
+.form-input:hover+.input-icon {
+    fill: #2196F3;
 }
 .input-field {
     margin-top: 4px;
